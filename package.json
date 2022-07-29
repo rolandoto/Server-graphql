@@ -6,7 +6,6 @@
   "type": "module",
   "scripts": {
     "json-server": "json-server --watch db.json",
-    "dev": "nodemon index.js",
     "start": "node index.js",
   },
   "keywords": [],
