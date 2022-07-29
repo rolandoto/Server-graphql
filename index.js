@@ -390,6 +390,6 @@ const server = new ApolloServer ({
         }
     }
 })
-server.listen().then(({url || 4000 }) =>{
-    console.log(`reacdy at ${url}`)
+server.listen().then(({port:process.env.PORT || 4000 }) =>{
+    console.log(`reacdy`)
 })
